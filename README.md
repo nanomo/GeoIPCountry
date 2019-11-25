@@ -37,7 +37,7 @@ $IP2Country = new \iriven\GeoIPCountry(); //Initialisation
 ```php
 $ip = '63.140.250.97';
 $CountryCode = $IP2Country->resolve($ip);
-echo 'Country Code: '.$countryCode;
+echo 'Country Code: '.$CountryCode;
 ```
 
 ### Retrieving Country name:
